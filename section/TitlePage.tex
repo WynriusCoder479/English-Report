@@ -1,0 +1,73 @@
+% \chapter{TitlePage}
+% \label{chap:TitlePage}
+
+\begin{titlepage}
+    \begin{tikzpicture}
+        [remember picture, overlay]
+        \draw [line width = 4pt] 
+        ($(current page.north west) + (3cm, -2cm)$) 
+        rectangle
+        ($(current page.south east) + (-1.5cm, 1.5cm)$); 
+        \draw [line width = 1pt] 
+        ($(current page.north west) + (3.2cm, -2.2cm)$) 
+        rectangle
+        ($(current page.south east) + (-1.7cm, 1.7cm)$); 
+    \end{tikzpicture}
+
+    \begin{center}
+        \vspace{6pt}
+        \textbf{
+            \fontsize{14pt}{0pt} 
+            \selectfont ĐẠI HỌC SÀI GÒN\\
+            \selectfont KHOA ĐIỆN TỬ VIỄN THÔNG\\
+            \selectfont BỘ MÔN VIỄN THÔNG\\
+        }
+        
+        \vspace{15pt}
+        \rule{200pt}{0.6pt}
+
+        \vspace{10pt}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height = 4cm, width = 4cm]{img/sgu-logo.png}
+        \end{figure}
+
+        \vspace{10pt}
+        \textbf{
+            \fontsize{20pt}{0pt} 
+            \selectfont TIẾNG ANH CHUYÊN NGÀNH\\
+            \vspace{20pt}
+            \selectfont English for Professional and Academic Purposes\\
+            \vspace{20pt}
+            \fontsize{24pt}{0pt}
+            \selectfont ESSAY: TOPIC 5
+        }\\
+    \end{center}
+    \vspace{15pt}
+    
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{l l}
+            \textbf{\fontsize{14pt}{0pt}\selectfont Sinh Viên Thực Hiện:}
+            & \fontsize{14pt}{0pt}\selectfont Nguyễn Vũ Linh - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Nguyễn Hoàng Chí - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Nguyễn Ngân Diệp - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Tạ Hữu Huy - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Trần Đăng Khoa - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Phạm Hoàng Minh - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Lê Sơn Nam - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Nguyễn Quang Chí - 3118500\\
+            & \fontsize{14pt}{0pt}\selectfont Nguyễn Thị Minh Nguyệt - 3118500 \vspace{20pt}\\
+            \textbf{\fontsize{14pt}{0pt}\selectfont Giảng Viên Hướng Dẫn:}
+            & \fontsize{14pt}{0pt}\selectfont TS.Nguyễn Việt Long\\
+        \end{tabular}
+    \end{table}
+    
+    \vspace{20pt}
+    \begin{center}
+        \textbf{
+            \fontsize{16pt}{0pt}
+            \selectfont TP. Hồ Chí Minh, tháng 12 năm 2021
+        }
+    \end{center}
+\end{titlepage}
